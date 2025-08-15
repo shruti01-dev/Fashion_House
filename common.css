@@ -1,0 +1,60 @@
+.flex {
+    display: flex;
+    padding-left: 0%;
+}
+
+.container {
+    padding: 0 10vw;
+    margin: 0;
+}
+
+.left img {
+    width: 75px;
+    height: 75px
+}
+
+header {
+    background: rgb(242, 180, 189);
+    box-shadow: 10px 10px rgb(224, 126, 159);
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.flex li a:hover {
+    color: rgb(36, 101, 159);
+    transition: 0.3s ease;
+}
+
+.flex li a.active {
+    color: rgb(23, 110, 186);
+}
+
+.items-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.semibold {
+    font-weight: bolder;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0 10px;
+}
+
+.right li a {
+    color: black;
+}
