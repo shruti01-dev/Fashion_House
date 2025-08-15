@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #hero {
     background-image: url(men-banner.jpg);
     width: 100%;
@@ -112,4 +113,120 @@
 
 .footer {
     background-color: pink;
+=======
+#hero {
+    background-image: url(men-banner.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+}
+
+.row {
+    width: 300px;
+    border: 1px solid rgb(0, 5, 0);
+    padding: 50px;
+    margin-top: 5px;
+    margin-left: 5px;
+    display: inline-block;
+    display: flexbox;
+}
+
+.row .content {
+    text-align: center;
+    font-weight: 400px;
+    font-size: large;
+}
+
+.star {
+    color: goldenrod;
+}
+
+.product {
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
+
+.product img {
+    transition: 0.3s all;
+}
+
+.product:hover img {
+    opacity: 0.7;
+}
+
+.product .buy {
+    background: green;
+    transform: translateY(20px);
+    opacity: 0;
+    transition: 0.3s all;
+    border-radius: 20px;
+    font-size: xx-large;
+    font-family: Aril Rounded MT Bold;
+}
+
+.product:hover .buy {
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+.s-product {
+    margin: 10px;
+    padding: 10px;
+}
+
+.s-product .row1 {
+    margin-top: 5px;
+}
+
+.p-name {
+    font-size: larger;
+    font-weight: bold;
+}
+
+.p-price {
+    font-size: larger;
+    font-weight: bold
+}
+
+#women {
+    background-image: url(women-b.png);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+}
+
+#beauty {
+    background-image: url(beauty-b.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+}
+
+#beauty .beu {
+    text-align: center;
+    justify-content: center;
+    font-size: larger;
+    font-weight: bolder;
+    color: rgb(2, 2, 42);
+}
+
+.features .img {
+    width: 100%;
+    height: 100%;
+    border: 5px solid red;
+    display: inline-block;
+}
+
+.pro-fea {
+    width: 50px;
+    height: 50px;
+    background: red;
+}
+
+.footer {
+    background-color: pink;
+>>>>>>> 72960608e82b4bd362a9a3d8ea43e17d24de4bda
 }
